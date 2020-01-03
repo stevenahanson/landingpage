@@ -8,14 +8,14 @@ import LandingPage from './components/villages/Landing Page.js';
 class App extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <Router>
           <div>
             <Route exact path="/" component={LandingPage}/>
             <Route path="/demo" component={Demo}/>
           </div>
         </Router>
-      </>
+      </div>
     )
   }
 }
