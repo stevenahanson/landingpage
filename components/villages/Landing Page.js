@@ -14,7 +14,7 @@ class LandingPage extends React.Component {
         <Header title="Developer Bot for Slack" subtitle="One article to one random person in your Slack group. Once a day."/>
         <SectionA/>
         <SectionB/>
-        <SectionC/>
+        <SectionC title="Developer Bot for Slack" subtitle="One article to one random person in your Slack group. Once a day."/>
         <Footer/>
       </div>
     )
